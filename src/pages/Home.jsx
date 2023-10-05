@@ -4,7 +4,7 @@ import "./Home.css"
 
 function Home() {
     return (
-        <body>
+        <>
             <header>
             <nav className="navigation">
                 <a href="#home" className="logo"><img src="./img/logo.svg" alt="Logo" /></a>
@@ -28,13 +28,13 @@ function Home() {
             </nav>
            </header>
             <main>
-                <section className="home">
+                <section id="home">
                     <div className="home-text">
                         <h1 className="text-h1">Coleiras inteligentes para cachorros cegos</h1>
                         <p>O avanço da tecnologia chegou até as coleiras do seu pet. Isso mesmo, hoje você já pode ajudar seu pet com  coleiras inteligentes</p>
                         <div className="icones-home">
                             <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
-                            <a href="#" target="_blank"><i className='bx bxl-instagram' undefined ></i></a>
+                            <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
                             <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ function Home() {
                             </div>
 
                             <div className="equipment-text">
-                                <p>Carregador de <br>bateria</br> </p>
+                                <p>Carregador de <br />bateria </p>
                                 <span>R$ 76,70</span>
                             </div>
                         </div>
@@ -165,7 +165,7 @@ function Home() {
                     </div>
                 </footer>
             </main>
-        </body>
+        </>
 
     )
 

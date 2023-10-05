@@ -194,11 +194,10 @@ body {
 
 }
 
-.home{
+#home{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0px 10%;
 }
 .home-text{

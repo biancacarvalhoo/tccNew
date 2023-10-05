@@ -10,10 +10,10 @@ function Router() {
     return (
       <Routes>
         <Route path="/" element={ <Home />} />
-        <Route path="/cadastrar" component={Cadastrar} /> 
-        <Route path="/acesso" component={Acesso} /> 
-        <Route path="/objetivo" component={Objetivo} />
-        <Route path="/treinamento" component={Treinamento} />
+        <Route path="/cadastrar" element={<Cadastrar />} /> 
+        <Route path="/acesso" element={<Acesso/>} /> 
+        <Route path="/objetivo" element={<Objetivo/>} />
+        <Route path="/treinamento" element={<Treinamento/>} />
       </Routes>
     );
   }
