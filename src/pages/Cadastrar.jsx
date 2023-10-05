@@ -1,19 +1,22 @@
+import { Link } from "react-router-dom"
 import "./Cadastrar.css"
+import voltarLogin from "../../img/voltar-login.svg"
 
 function Cadastro() {
     return (
-        <section class="cadastrar">
-            <div class="left">
-                <div class="left-button">
+        <section className="cadastrar">
+            <div className="left">
+                <div className="left-button">
                     <button>
-                        <Link to={"/Home"}>Voltar</Link>
+                        <Link to={"/"}>
+                            <img src={voltarLogin} alt="" />Voltar
+                        </Link>
                     </button>
-                    <a href="./index.html"><button><img src="./voltar-login.svg" alt="" />Voltar</button></a>
                 </div>
 
-                <div class="left-content">
+                <div className="left-content">
                     <h1>dono</h1>
-                    <div class="inputs-dono">
+                    <div className="inputs-dono">
                         <input type="email" placeholder="Email" />
                         <input type="text" placeholder="Usuario" />
                         <input type="tel" placeholder="Telefone" />
@@ -23,23 +26,23 @@ function Cadastro() {
                 </div>
             </div>
 
-            <div class="right">
-                <div class="right-button">
-                    <a href="./entrar.html"><button>Entrar</button></a>
+            <div className="right">
+                <div className="right-button">
+                    <Link to={"/"}>Entrar</Link>
                 </div>
             </div>
 
-            <div class="right-content">
+            <div className="right-content">
                 <h1>cachorro</h1>
-                <div class="inputs-dono">
+                <div className="inputs-dono">
                     <input type="text" placeholder="Nome do cachorro" />
                     <input type="text" placeholder="Nome do dono" />
                     <input type="text" placeholder="Raça" />
                     <input type="number" placeholder="Idade" />
                 </div>
+                <button>Cadastrar</button>
             </div>
 
-            <button>Cadastrar</button>
         </section>
     )
 }

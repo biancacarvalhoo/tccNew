@@ -16,8 +16,8 @@ function Home() {
 
                 </ul>
                 <div className="botoes">
-                <Link to={"/Acessar"}>acessar</Link>
-                <Link to={"/Cadastrar"}>Cadastrar</Link>
+                <Link to={"/acesso"}>acessar</Link>
+                <Link to={"/cadastrar"}>Cadastrar</Link>
                 </div>
 
                 <div className="menu">
