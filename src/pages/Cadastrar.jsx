@@ -28,7 +28,7 @@ function Cadastro() {
 
             <div className="right">
                 <div className="right-button">
-                    <Link to={"/"}>Entrar</Link>
+                    <Link to={"/acesso"}>Entrar</Link>
                 </div>
             </div>
 

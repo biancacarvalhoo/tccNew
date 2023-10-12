@@ -8,8 +8,8 @@ function Objetivo() {
                 <nav className="navigation">
                     <a href="./index.html#home" className="logo"><img src="file:///C:/Users/Bianca%20-%20PC/Downloads/c%20(1).png" alt="" /></a>
                     <ul className="nav-menu">
-                        <Link to={"/Objetivo"} className="nav-item">Equipamentos</Link>
-                        <Link to={"/acesso"} className="nav-item">QR Code </Link>
+                        <Link to={"/"} className="nav-item">Equipamentos</Link>
+                        <Link to={"/"} className="nav-item">QR Code </Link>
                         <Link to={"/Objetivo"} className="nav-item">Objetivo</Link>
                         <Link to={"/Treinamento"} className="nav-item">Adaptação</Link>
                         

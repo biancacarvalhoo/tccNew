@@ -9,15 +9,14 @@ function Home() {
             <nav className="navigation">
                 <a href="#home" className="logo"><img src="./img/logo.svg" alt="Logo" /></a>
                 <ul className="nav-menu">
-                    <li className="nav-item"><a href="#equipamentos">Equipamentos</a></li>
-                    <li className="nav-item"><a href="#qr-code">QRcode</a></li>
-                    <Link to={"/Objetivo"}>Objetivo</Link>
-                    <Link to={"/Treinamento"}>Adaptação</Link>
-
+                    <li><a className="nav-item" href="#equipamentos">Equipamentos</a></li>
+                    <li><a className="nav-item" href="#qr-code">QRcode</a></li>
+                    <Link to={"/Objetivo"} className="nav-item">Objetivo</Link>
+                    <Link to={"/Treinamento"} className="nav-item">Adaptação</Link>
                 </ul>
                 <div className="botoes">
-                <Link to={"/acesso"}>acessar</Link>
-                <Link to={"/cadastrar"}>Cadastrar</Link>
+                    <Link to={"/acesso"} className="nav-button">acessar</Link>
+                    <Link to={"/cadastrar"} className="nav-button">Cadastrar</Link>
                 </div>
 
                 <div className="menu">
