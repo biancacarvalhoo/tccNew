@@ -7,16 +7,15 @@ function Acesso() {
         <section className="login">
             <div className="left">
                 <div className="left-button">
-
                     <button>
-                    <Link to={"/"}>Voltar</Link>
-                        </button>
+                        <Link to={"/"}>Voltar</Link>
+                    </button>
                 </div>
                 <div className="right">
                     <div className="right-button">
-                    <button>
-                    <Link to={"/Cadastrar"}>Cadastrar</Link>
-                    </button>
+                        <button>
+                            <Link to={"/Cadastrar"}>Cadastrar</Link>
+                        </button>
                     </div>
 
                     <div className="right-content">
